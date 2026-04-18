@@ -9,9 +9,9 @@ const PORT = process.env.PORT || 8080;
 // Format: SCORING_URI = "https://your-endpoint.inference.ml.azure.com/score"
 // Format: AZURE_ML_KEY = "your-primary-key-here"
 const SCORING_URI =
-  process.env.SCORING_URI || "TODO_INSERT_YOUR_SCORING_URI_HERE";
+  process.env.SCORING_URI || "https://iris-endpoint-1234.southeastasia.inference.ml.azure.com/score";
 const AZURE_ML_KEY =
-  process.env.AZURE_ML_KEY || "TODO_INSERT_YOUR_AZURE_ML_KEY_HERE";
+  process.env.AZURE_ML_KEY || "Fxs0CDE6HL2gNZdv6Hg6YAEIhCuzsFp9qQqkggt0aCByCncQDMbuJQQJ99CDAAAAAAAAAAAAINFRAZML4PcD";
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
